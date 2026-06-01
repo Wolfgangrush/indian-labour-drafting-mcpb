@@ -30,7 +30,6 @@ Claude Desktop App ≥ 0.10.0 · Python ≥ 3.10 · `pandoc` · `pdftotext` (opt
 Zero data collection. Three-layer privacy firewall. **<https://wolfgangrush.github.io/privacy/>**
 
 
-
 ## Architecture · how the six agents work
 
 This connector runs a strict six-agent pipeline locally on your machine:
@@ -101,6 +100,16 @@ This is the connector's contribution to your **Section 8(5) DPDP Act 2023** safe
 > only. Real values are re-substituted at the final docx render step on the
 > user's local machine. No real identifying data leaves the case folder.
 
+## Examples
+
+Three example prompts that demonstrate core functionality. Full prompt text with expected tool sequence is in `SAMPLE-CASES/README.md`.
+
+- *"Draft an industrial dispute reference under Section 10 of the Industrial Disputes Act 1947."*
+- *"Draft a workmen's-compensation application under Section 22 of the Employees Compensation Act 1923."*
+- *"Draft a Section 33C(2) ID Act application for recovery of money due."*
+
+See `SAMPLE-CASES/README.md` for the full prompt text and the expected tool-call sequence the Anthropic reviewer can use to exercise the pipeline end-to-end.
+
 ## License
 
-MIT. **Publisher:** Rushikesh R. Mahajan publishing as Wolfgang Rush · advrushikeshravindramahajan@gmail.com · <https://github.com/Wolfgangrush/indian-labour-drafting-mcpb>
+MIT. **Publisher:** Wolfgang Rush · wolfgangrush@gmail.com · <https://github.com/Wolfgangrush/indian-labour-drafting-mcpb>
